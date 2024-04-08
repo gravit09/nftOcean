@@ -28,7 +28,7 @@ function TopCollector() {
   };
 
   return (
-    <div className="slider-container card-row p-8 mt-0">
+    <div className="slider-container card-row p-8 mt-0 ">
       <div class="flex items-center justify-between m-2 ">
         <div class="flex items-center -space-x-3">
           <h1 className="m-2 text-3xl font-bold">Top Collector Buys</h1>
@@ -44,12 +44,12 @@ function TopCollector() {
         <div class="relative hover:-translate-y-2 transition-all duration-300 flex max-w-[20rem] flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md h-80">
           <div class="relative overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border h-45">
             <img
-              src="https://i.seadn.io/s/raw/files/c2d2cff1e45cfe134e01306486458a7a.png?auto=format&dpr=1&h=500"
+              src="https://i.seadn.io/s/raw/files/3fc12618f84514e0df6953b38905f50c.png?auto=format&dpr=1&h=500"
               alt="ui/ux review check"
               class="h-full w-full object-cover"
             />
           </div>
-          <h1 className="text-lg font-bold m-2">Early Retired Cats Club</h1>
+          <h1 className="text-lg font-bold m-2">Based Fellas</h1>
           <div class="flex items-center justify-between m-2 ">
             <div class="flex items-center -space-x-3">
               <p>Floor</p>
@@ -70,12 +70,12 @@ function TopCollector() {
         <div class="relative hover:-translate-y-2 transition-all duration-300 flex max-w-[20rem] flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md h-80">
           <div class="relative overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border h-45">
             <img
-              src="https://i.seadn.io/gcs/files/38f36655e420669261f3ebba775f40b6.png?auto=format&dpr=1&h=500"
+              src="https://i.seadn.io/s/raw/files/c761d96dc33c0dd7df463e978b289b3b.jpg?auto=format&dpr=1&h=500"
               alt="ui/ux review check"
               class="h-full w-full object-cover"
             />
           </div>
-          <h1 className="text-lg font-bold m-2">Incomplete Control</h1>
+          <h1 className="text-lg font-bold m-2">UnderGround World</h1>
           <div class="flex items-center justify-between m-2 ">
             <div class="flex items-center -space-x-3">
               <p>Floor</p>
@@ -96,12 +96,12 @@ function TopCollector() {
         <div class="relative hover:-translate-y-2 transition-all duration-300 flex max-w-[20rem] flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md h-80">
           <div class="relative overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border h-45">
             <img
-              src="https://i.seadn.io/s/raw/files/f85d2a82dde2b8146b6bf11ddbedb3b1.png?auto=format&dpr=1&h=500"
+              src="https://i.seadn.io/gcs/files/6e6efb4c70c8faf8b5a23bd499a34323.jpg?auto=format&dpr=1&h=500"
               alt="ui/ux review check"
               class="h-full w-full object-cover"
             />
           </div>
-          <h1 className="text-lg font-bold m-2">Oasis</h1>
+          <h1 className="text-lg font-bold m-2">Base Pepe</h1>
           <div class="flex items-center justify-between m-2 ">
             <div class="flex items-center -space-x-3">
               <p>Floor</p>
@@ -122,12 +122,12 @@ function TopCollector() {
         <div class="relative hover:-translate-y-2 transition-all duration-300 flex max-w-[20rem] flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md h-80">
           <div class="relative overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border h-45">
             <img
-              src="https://raw.seadn.io/files/66794fa8117976be25181911a1e89900.svg"
+              src="https://i.seadn.io/gae/So80zwi42fQxZVYRhedjI8U5mjV2_dMCA26MCm5SpVv2YoTuVg4daRMY-NSjxaJ8I4uxRXzeQKREb-xIxp_HgJq30ETsMFTMJnPdsg?auto=format&dpr=1&h=500"
               alt="ui/ux review check"
               class="h-full w-full object-cover"
             />
           </div>
-          <h1 className="text-lg font-bold m-2">Swatches</h1>
+          <h1 className="text-lg font-bold m-2">Moonbirds</h1>
           <div class="flex items-center justify-between m-2 ">
             <div class="flex items-center -space-x-3">
               <p>Floor</p>

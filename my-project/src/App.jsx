@@ -7,6 +7,11 @@ import Table from "./Table";
 import CardRow from "./CardRow";
 import Card from "./Card";
 import TopCollector from "./TopCollector";
+import Art from "./Art";
+import Gaming from "./Gaming";
+import Music from "./Music";
+import Pfp from "./Pfp";
+import Footer from "./Footer";
 
 function App() {
   const [topImages, setTopImages] = useState([
@@ -29,6 +34,11 @@ function App() {
               <Table />
               <CardRow />
               <TopCollector />
+              <Art />
+              <Gaming />
+              <Pfp />
+              <Music />
+              <Footer />
             </>
           }
         />

@@ -1,17 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import CartDrawer from "./CartDrawer"; // Import the ShoppingCart component
 
 function Navbar() {
-  const [isCartOpen, setIsCartOpen] = useState(false); // State to manage cart visibility
-
-  const toggleCart = () => {
-    setIsCartOpen(!isCartOpen);
-  };
-
   return (
-    <header className=" ">
-      <div className="container mx-auto px-4 py-4 flex items-center">
+    <header className="bg-white">
+      <div className="container mx-auto px-4 py-8 flex items-center">
         <div className="mr-auto md:w-48 flex-shrink-0">
           <h1 className="font-bold md:text-2xl">Nft Ocean</h1>
         </div>
@@ -98,11 +91,8 @@ function Navbar() {
               </a>
             </li>
 
-            <li
-              className="ml-2 lg:ml-4 relative inline-block cursor-pointer"
-              onClick={toggleCart}
-            >
-              <a className="cart-component">
+            <li className="ml-2 lg:ml-4 relative inline-block">
+              <a className="cart-component" href="">
                 <div className="absolute -top-1 right-0 z-10 bg-yellow-400 text-xs font-bold px-1 py-0.5 rounded-sm">
                   0
                 </div>
@@ -131,7 +121,6 @@ function Navbar() {
         </div>
       </div>
       <hr />
-      {isCartOpen && <CartDrawer />}
     </header>
   );
 }

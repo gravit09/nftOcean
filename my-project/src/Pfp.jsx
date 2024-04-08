@@ -28,7 +28,7 @@ function Pfp() {
   };
 
   return (
-    <div className="slider-container card-row p-8 mt-0">
+    <div className="slider-container card-row p-8 mt-0 ">
       <div class="flex items-center justify-between m-2 ">
         <div class="flex items-center -space-x-3">
           <h1 className="m-2 text-3xl font-bold">Top Collector Buys</h1>
