@@ -63,7 +63,7 @@ function CardRow() {
               <p className="font-bold">0.68 ETH</p>
             </div>
             <p class="block font-sans text-base antialiased font-bold leading-relaxed text-inherit">
-              2,724 ETH
+              2,725 ETH
             </p>
           </div>
         </div>
