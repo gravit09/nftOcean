@@ -7,7 +7,6 @@ function Table() {
         <div className="w-full max-w-full px-1  mx-auto">
           <div className="relative flex-[1_auto] flex flex-col break-words min-w-0 bg-clip-border rounded-[.95rem] bg-white m-5">
             <div className="relative flex flex-col min-w-0 break-words border border-dashed bg-clip-border rounded-2xl border-stone-200 bg-light/30">
-              {/* card header */}
               <label
                 for="Toggle3"
                 className="inline-flex mx-3 my-3 items-center p-2 rounded-md cursor-pointer dark:text-gray-800"
@@ -20,8 +19,7 @@ function Table() {
                   Top
                 </span>
               </label>
-              {/* end card header */}
-              {/* card body  */}
+
               <div className="flex-auto block py-8 pt-6 px-9">
                 <div className="overflow-x-auto">
                   <table className="w-full my-0 align-middle text-dark border-neutral-200">

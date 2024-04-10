@@ -3,7 +3,6 @@ import React from "react";
 function Footer() {
   return (
     <>
-      {/* component */}
       <footer className="bg-gray-100">
         <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
