@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Login() {
+  //remove web3 auth only use metamask as of now.
   return (
     <>
       <link
