@@ -1,6 +1,7 @@
 import React from "react";
 
 function Table() {
+  //for table check the Antdesign library
   return (
     <>
       <div className="flex flex-wrap  ">
