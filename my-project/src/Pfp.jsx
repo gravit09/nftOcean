@@ -28,6 +28,7 @@ function Pfp() {
   };
 
   return (
+    //code have issue with ultra large displays
     <div className="slider-container card-row p-8 mt-0 ">
       <div class="flex items-center justify-between m-2 ">
         <div class="flex items-center -space-x-3">
