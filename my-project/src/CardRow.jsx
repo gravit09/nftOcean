@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function CardRow() {
+  //this component will show nft collections row.
   const settings = {
     dots: false,
     infinite: false,

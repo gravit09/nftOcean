@@ -1,6 +1,7 @@
 import React from "react";
 
 function Table() {
+  //data related nft sales will be shown here
   return (
     <>
       <div className="flex flex-wrap  ">
